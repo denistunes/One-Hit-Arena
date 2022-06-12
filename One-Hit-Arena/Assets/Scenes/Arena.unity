@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 1995228226}
   - component: {fileID: 1995228225}
   - component: {fileID: 1995228224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12898,7 +12898,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132690925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -305,8 +305,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firepoint: {fileID: 636733140312356281}
+  RayLength: 0
   boomerang: {fileID: 5161326873185288713, guid: c0b157c1d7c0fc1489a6c66bd11fd564, type: 3}
   hasBoomerang: 1
+  BlockLayer:
+    serializedVersion: 2
+    m_Bits: 320
   sprite: {fileID: 636733140081157962}
   noFColor: {r: 1, g: 1, b: 1, a: 1}
   BoomColor: {r: 0.54, g: 0.2964706, b: 0.35152948, a: 0.6039216}
@@ -323,6 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Deatheffect: {fileID: 3135837947075267196, guid: 83737c4a3609d81488a2c3661bf2b4ee, type: 3}
+  noDeath: 0
 --- !u!50 &636733140328752736
 Rigidbody2D:
   serializedVersion: 4
