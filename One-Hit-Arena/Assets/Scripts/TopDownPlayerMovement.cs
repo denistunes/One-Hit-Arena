@@ -13,6 +13,7 @@ public class TopDownPlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    // Start is for getting Components for this scripts, i don't know it's just for branching
     void Start(){
         rb = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
